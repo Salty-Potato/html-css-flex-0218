@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Layouts</title>
+
+    <style>
+
+        .box1 {
+            bottom: 0px;
+            position: relative;
+            background-color:  red;
+            height: 200px;
+            width: 200px;
+            left: 300px;
+        }
+        .child_box {
+            position: absolute;
+            
+        }
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background-color:blue;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="box box1">
+            <div class="box child_box">
+                Hello
+            </div>
+        </div>
+        <div class="box box2">
+            Box 2
+        </div>
+</html>
